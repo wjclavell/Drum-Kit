@@ -1,0 +1,47 @@
+html {
+  font-size: 10px;
+  background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)),url(https://static.billboard.com/files/media/concert-crowd-audience-stock-2019-u-billboard-1548-compressed.jpg) center;
+  background-size: cover;
+}
+body,html {
+	margin: 0;
+	padding: 0;
+	font-family: 'Sriracha', sans-serif;
+}
+.keys {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	flex-wrap: wrap;
+}
+.key {
+	border: .5rem solid white;
+	font-size: 2rem;
+	margin: 0 1rem;
+	padding: 0 .5rem;
+	text-align: center;
+	color: #fb33d8;
+	background: rgba(255,255,255,0.1);
+ 	text-shadow: 0 0 .5rem black;
+ 	line-height: 5rem;
+ 	border-radius: 10rem;
+ 	width: 10rem;
+ 	height: 10rem;
+ 	transition: all .1s ease;
+}
+.playing {
+	transform: scale(1.2);
+	border-color: #7fffd8;
+	box-shadow: 0 0 1rem #7fffd8;
+}
+kbd {
+	font-family: 'Sriracha', sans-serif;
+	padding-top: .5rem;
+	display: block;
+	font-size: 5rem;
+	color: #7fffd8;
+}
+.sound {
+	letter-spacing: .2rem;
+}
